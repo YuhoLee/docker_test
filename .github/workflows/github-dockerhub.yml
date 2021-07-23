@@ -1,11 +1,6 @@
 name: Github Actions
 
 on:
-  push:
-    branches:
-      - '**'
-    tags:
-      - '**'
   pull_request:
     types: [assigned, opened, synchronize, reopened]
 
